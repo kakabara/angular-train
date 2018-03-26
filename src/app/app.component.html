@@ -1,10 +1,16 @@
-<div class="container">
-  <div class="row">
-    <app-user
-      *ngFor="let u of users"
-      [user]="u"
-    ></app-user>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Logo</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a routerLink="/">Главная</a></li>
+      <li><a routerLink="/setup">Настройка</a></li>
+    </ul>
   </div>
+</nav>
+<div class="container">
+
+  <router-outlet></router-outlet>
+
 </div>
 
 

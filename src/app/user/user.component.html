@@ -1,11 +1,12 @@
 
-  <div class="col s3">
-    <div class="card">
+  <div class="col s3" >
+    <div class="card" appHover>
       <div class="card-image">
         <img src="{{ user.image }}">
         <span class="card-title"
         [ngClass]="{'marked': isMarked}">
-          {{ user.name }}</span>
+          {{ user.name | uppercase }}
+        </span>
       </div>
       <div class="card-content">
         <p> {{ user.geo }}</p>

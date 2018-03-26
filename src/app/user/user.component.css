@@ -1,3 +1,8 @@
 .card-content {
   height: 130px;
 }
+
+.marked {
+  font-weight: bold;
+  color: red!important;
+}

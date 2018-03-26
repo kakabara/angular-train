@@ -16,5 +16,5 @@ export class SetupPageComponent implements OnInit {
 
   ngOnInit() {
   }
-  }
 }
+
